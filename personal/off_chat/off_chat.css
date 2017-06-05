@@ -1,12 +1,55 @@
 
 header{
+    padding-top: 20px;
     text-align: center;
+    font-size: 30px;
 }
 
-div
+.box
 {
     outline: 1px solid black;
-    width: 30%
-
+    position: relative;
+    width: 350px;
+    height: 500px;
+    left: 420px;
+    top: 15px;
+    /*margin: 1cm 4cm 3cm 9.65cm;*/
 }
+
+.input_box{
+    text-align: center;
+    position: relative;
+    width: 170px;
+    height: 30px;
+    left: 0px;
+    top: 464px;
+}
+
+.input_box_detail{
+    outline: 1px solid black;
+    position: relative;
+    width: 293px;
+    height: 30px;
+}
+
+.input_button{
+    outline: 1px solid black;
+    text-align: center;
+    position: relative;
+    width: 50px;
+    height: 36px;
+    left: 300px;
+    top: 434px;
+}
+
+.input_button_detail{
+    outline: 1px solid blue;
+    position: relative;
+    top: 10px;
+}
+
+input{
+    text-align: bottom;
+}
+
 
