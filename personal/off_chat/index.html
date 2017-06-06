@@ -7,13 +7,15 @@
 </head>
 <body>
     <header>Welcome, 서아챗입니다</header>
-    <div class="box">
-    <div class="input_box">
-        <input class="input_box_detail" type="text" name="content">
+    <div class="box" id="box" type="text">
+    <div class="input_box" id="input_box">
+        <input id="input_box_detail" type="text" name="content">
     </div>        
-    <div class="input_button">
-        <input class="input_button_detail" type="submit" value="제출">
+    <div class="input_button" id="input_button">
+        <button type="submit" onclick= "sentenceUp()" id="input_button_detail">전송</button>
     </div>
     </div>
 
 </body>
+
+	<script src="off_chat.js"></script>

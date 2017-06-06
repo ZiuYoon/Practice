@@ -25,7 +25,7 @@ header{
     top: 464px;
 }
 
-.input_box_detail{
+#input_box_detail{
     outline: 1px solid black;
     position: relative;
     width: 293px;
@@ -42,7 +42,7 @@ header{
     top: 434px;
 }
 
-.input_button_detail{
+#input_button_detail{
     outline: 1px solid blue;
     position: relative;
     top: 10px;
